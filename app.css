@@ -98,3 +98,37 @@
 	text-decoration: none;
 	z-index: 9;
 }
+
+#about-title {
+	position: relative;
+	top: -300px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: overline;
+}
+
+#about-paragraph {
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	font-size: 23px;
+	text-align: center;
+}
+
+#creator {
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	top: 500px;
+	left: 1100px;
+	font-size: 22px;
+}
+
+#contact-word {
+	color: black;
+}
+
+body{width:90%;margin:auto;min-width:600px;max-width:2000px}
